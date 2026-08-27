@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import "tailwindcss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", "Pacifico", sans-serif;
+}
+
+
+.textid1{
+    font-family: "Pacifico", cursive;
+    font-size: 60px;
+    
+}
+
+.Textid2{
+    font-family: "Pacifico", cursive;
+    font-size: 60px;
+}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Invoice Template</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-white">
+    <div class="text-[20px] text-center font-bold text-[#dedfe4] bg-[#202d58]">
+        68108896 นชคพร เชื้อตาเคน
+    </div>
+
+
+    <div class="container max-w-[800px] h-auto mx-auto  px-4 py-3">
+        <!-- Box1 -->
+        <div class="flex justify-between items-center">
+            <div>
+                <h1 class="text-[50px] text-[#202d58] font-bold">
+                    INVOICE
+                </h1>
+                <strong>
+                    East Repair Inc. <br>
+                </strong>
+                1912 Harvest Lane <br>
+                New York, NY 12210
+
+            </div>
+            <div>
+                <img src="./img/logo-spu.png" width="100" height="100" alt="SPU Logo">
+            </div>
+        </div>
+
+        <!-- Box2 -->
+        <table width="100%" class="border-collapse  mt-5">
+            <tr>
+                <td>
+                    <strong>BILL TO</strong> <br>
+                    John Smith <br>
+                    2 Count Square <br>
+                    New York, NY 12210
+                </td>
+                <td>
+                    <strong>SHIP TO</strong> <br>
+                    John Smith <br>
+                    3787 Pineview Drive <br>
+                    Cambridge, MA 12210
+                </td>
+                <td>
+                    <strong>
+                        INVOICE # <br>
+                        INVOVICE DATE <br>
+                        P.O.# <br>
+                        DUE DATE
+                    </strong>
+                </td>
+                <td class="text-right">
+                    US-001 <br>
+                    11/02/2019 <br>
+                    2312/2019 <br>
+                    26/02/2019
+            </tr>
+        </table>
+
+        <!-- Box3 -->
+        <table width="100%" class="border-collapse mt-8 ">
+            <thead>
+                <tr class="bg-white text-[#202d58]">
+                    <th class="border px-4 py-2">QTY</th>
+                    <th class="border px-4 py-2">DESCRIPTION</th>
+                    <th class="border px-4 py-2">UNIT PRICE</th>
+                    <th class="border px-4 py-2">AMOUNT</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class=" px-4 py-2 text-center">1</td>
+                    <td class=" px-4 py-2 ">Front and rear brake ables</td>
+                    <td class=" px-4 py-2 text-right">100.00</td>
+                    <td class=" px-4 py-2 text-right">100.00</td>
+                </tr>
+                <tr>
+                    <td class=" px-4 py-2 text-center">2</td>
+                    <td class=" px-4 py-2">New set pedal arms</td>
+                    <td class=" px-4 py-2 text-right">15.00</td>
+                    <td class=" px-4 py-2 text-right">30.00</td>
+                </tr>
+                <tr>
+                    <td class=" px-4 py-2 text-center">3</td>
+                    <td class=" px-4 py-2">Labor 3hrs</td>
+                    <td class=" px-4 py-2 text-right">5.00</td>
+                    <td class=" px-4 py-2 text-right">5.00</td>
+                </tr>
+                <tr>
+                    <td colspan="3" class=" px-4 py-2 text-right">Subtotal</td>
+                    <td class=" px-4 py-2 text-right">145.00</td>
+                </tr>
+                <tr>
+                    <td colspan="3" class=" px-4 py-2 text-right">SalesTax 6.25%</td>
+                    <td class=" px-4 py-2 text-right">9.06</td>
+                </tr>
+                <tr style="font-weight: bold;">
+                    <td colspan="3" class=" px-4 py-2 text-right">Total</td>
+                    <td class=" px-4 py-2 text-right">154.06</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+        <!-- Box4 -->
+        <div class="text-end mt-5">
+            <img class="ml-auto" src="./img/John.PNG" alt="signature image" width="150">
+        </div>
+        <br><br><br>
+
+        <!-- Box5 -->
+        <!-- <div>
+            <table width="100%" class="border-collapse bg-red-500 mt-5">
+                <tbody>
+                    <tr>
+                        <td class="textid1 px-4 py-2 " width="50%" align="right" style="color: #1b2957;">
+                            Thank you
+                        </td>
+                        <td class="px-4 py-2">TERMS & CONDITIONS
+                            <br> <br>
+                            Payment is due within 15 days <br>
+                            Please make checks payable to: East Repair Inc.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div> -->
+
+        <div class="mt-20">
+            <div class="flex justify-center gap-3 ">
+                <div>
+                    <h1 class="Textid2">
+                        Thank you
+                    </h1>
+                </div>
+                <div class="border-l-2 border-[#202d58]">
+                    <div class="mx-2">
+                        <h3 class="text-[#d54330] font-bold">
+                            TERMS & CONDITIONS 
+                        </h3>
+                        <p>
+                            <br>
+                            Payment is due within 15 days
+                             <br>
+                             <br>
+                            Please make checks payable to: East Repair Inc.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 
+    <script src="./js/index.js"></script>
+
+    <script src="./js/data.js"></script> -->
+
+</body>
+
+</html>
