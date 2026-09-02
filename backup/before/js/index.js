@@ -47,13 +47,5 @@ const data = {
             unitPrice: 4000,
 
         },
-                {
-
-            quantity: 1,
-            name: 'Item Name1',
-            description: 'Item description1',
-            unitPrice: 4000,
-
-        },
     ]
 }
